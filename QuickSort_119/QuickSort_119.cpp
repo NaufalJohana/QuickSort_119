@@ -66,3 +66,5 @@ void q_short(int low, int high)
 		}
 		cmp_count++;
 
+		//search for an elemnt less than or equal to pivot
+		while ((arr[j] > pivot) && (j >= low))			//langkah algoritma no. 7
