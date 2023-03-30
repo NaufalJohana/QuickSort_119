@@ -91,3 +91,8 @@ void q_short(int low, int high)
 	}
 	// sort the list on the left pivot using quick sort
 	q_short(low, j - 1);								//langkah algoritma no. 12
+
+	// sort the list on the right of pivot using quick sort
+	q_short(j + 1, high);								//Langkah algoritma no. 13
+
+}
