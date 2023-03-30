@@ -73,3 +73,12 @@ void q_short(int low, int high)
 			cmp_count++;
 		}
 		cmp_count++;
+
+		// if the greather element is on the left of the element
+		if (i < j)										//Langkah Algoritma no. 9
+		{
+			// swap the element at index i with the element at index j
+			swap(i, j);
+			mov_count++;
+		}
+	}
