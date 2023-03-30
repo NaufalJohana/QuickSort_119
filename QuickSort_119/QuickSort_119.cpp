@@ -96,3 +96,17 @@ void q_short(int low, int high)
 	q_short(j + 1, high);								//Langkah algoritma no. 13
 
 }
+
+void display() {
+	cout << "\n-------------------" << endl;
+	cout << "Sorted Array" << endl;
+	cout << "\n-------------------" << endl;
+
+	for (int i = 0; i < n; i++)
+	{
+		cout << arr[i] << " ";
+	}
+
+	cout << "\n\nNumber of comparasion: " << cmp_count << endl;
+	cout << "NUmber of Data movements: " << mov_count << endl;
+}
